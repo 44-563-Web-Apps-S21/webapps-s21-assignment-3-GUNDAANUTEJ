@@ -77,6 +77,34 @@
                 
      </table>
 
+     <hr>
+
+     <h1> Netwide Assembler </h1>
+
+     <blockquote cite="https://en.wikipedia.org/wiki/Netwide_Assembler">  <q> The Netwide Assembler (NASM) is an assembler and 
+         disassembler for the Intel x86 architecture. It can be used to write 16-bit, 32-bit (IA-32) and 64-bit (x86-64) 
+         programs. NASM is considered to be one of the most popular assemblers for Linux. </q>  </blockquote>  
+
+          <code>  <pre> 
+                   section .text
+                   org 0x100
+                   mov	ah, 0x9
+                   mov	dx, hello
+                   int	0x21
+            
+                   mov	ax, 0x4c00
+                   int	0x21
+            
+                  </pre>  </code>
+
+                  <a href= https://en.wikipedia.org/wiki/%22Hello,_World!%22_program  > hello world example for Netwide 
+                    Assembler code(link) </a>   <br>
+
+
+
+        
+
+                   
   <a href=aboutme.html> path to aboutme html file </a>
 </body >
 
